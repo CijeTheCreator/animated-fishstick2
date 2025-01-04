@@ -1,0 +1,11 @@
+2024-10-09 16:50:06.600 [info] Started local extension host with pid 10800.
+2024-10-09 16:50:08.204 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode/extensions
+2024-10-09 16:50:09.306 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/ubuntu/.vscode/extensions Unable to create file 'vscode-userdata:/home/ubuntu/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-10-09 16:50:09.307 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode/extensions
+2024-10-09 16:50:11.587 [info] [perf] Render performance baseline is 116ms
+2024-10-09 16:51:21.164 [error] [network] #5: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-10-09 16:51:21.727 [error] [network] #6: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-10-09 16:51:25.306 [error] [network] #10: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-10-09 16:51:45.063 [error] [network] #16: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-10-09 16:51:45.064 [error] [network] #15: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2024-10-09 16:51:46.019 [error] [network] #17: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

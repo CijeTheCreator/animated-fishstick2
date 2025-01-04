@@ -1,0 +1,8 @@
+//User Model with id:int, email:string, name:string?, posts: posts[], profile: profile[]
+
+//Profile Model with id:int, bio:string, user:user, userId@unique
+
+//Post Model with id:int, createdAt, updatedAt, title:string, published:bool, author:user, authorid: int, categories: category[]
+
+//Category Model with id:int, name:string, posts:Post[]
+

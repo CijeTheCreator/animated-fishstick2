@@ -1,0 +1,49 @@
+2024-10-09 16:50:39.397 [info] [main] Log level: Info
+2024-10-09 16:50:39.397 [info] [main] Validating found git in: "git"
+2024-10-09 16:50:39.397 [info] [main] Using git "2.43.0" from "git"
+2024-10-09 16:50:39.397 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-09 16:50:39.564 [info] > git rev-parse --show-toplevel [181ms]
+2024-10-09 16:50:39.564 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-09 16:50:39.601 [info] > git rev-parse --show-toplevel [9ms]
+2024-10-09 16:50:39.601 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-09 16:50:39.663 [info] > git rev-parse --show-toplevel [39ms]
+2024-10-09 16:50:39.693 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2024-10-09 16:50:39.749 [info] [Model][openRepository] Opened repository: /home/ubuntu/Documents/PINATA_DEV_CHALLENGE
+2024-10-09 16:50:39.774 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-09 16:50:39.824 [info] > git config --get commit.template [22ms]
+2024-10-09 16:50:39.958 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [106ms]
+2024-10-09 16:50:40.011 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/Documents/PINATA_DEV_CHALLENGE/.git/refs/remotes/origin/main'
+2024-10-09 16:50:40.017 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-10-09 16:50:40.066 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+2024-10-09 16:50:40.411 [info] > git check-ignore -v -z --stdin [24ms]
+2024-10-09 16:50:40.897 [info] > git status -z -uall [869ms]
+2024-10-09 16:50:40.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [36ms]
+2024-10-09 16:50:41.014 [info] > git config --local branch.main.vscode-merge-base [8ms]
+2024-10-09 16:50:41.014 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-09 16:50:41.035 [info] > git config --get commit.template [55ms]
+2024-10-09 16:50:41.144 [info] > git reflog main --grep-reflog=branch: Created from *. [110ms]
+2024-10-09 16:50:41.186 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [36ms]
+2024-10-09 16:50:41.196 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [55ms]
+2024-10-09 16:50:41.206 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/Documents/PINATA_DEV_CHALLENGE/.git/refs/remotes/origin/main'
+2024-10-09 16:50:41.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [16ms]
+2024-10-09 16:50:41.221 [info] > git rev-parse refs/remotes/origin/main [14ms]
+2024-10-09 16:50:41.238 [info] > git config --local branch.main.vscode-merge-base origin/main [20ms]
+2024-10-09 16:50:41.239 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms] (cancelled)
+2024-10-09 16:50:41.262 [info] > git status -z -uall [34ms] (cancelled)
+2024-10-09 16:50:41.262 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-10-09 16:50:41.271 [info] > git config --get commit.template [11ms]
+2024-10-09 16:50:41.273 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-10-09 16:50:41.293 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [10ms]
+2024-10-09 16:50:41.341 [info] > git merge-base refs/heads/main refs/remotes/origin/main [36ms]
+2024-10-09 16:50:41.350 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [57ms]
+2024-10-09 16:50:41.359 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/Documents/PINATA_DEV_CHALLENGE/.git/refs/remotes/origin/main'
+2024-10-09 16:50:41.360 [info] > git diff --name-status -z --diff-filter=ADMR aaefaaa9868b7cf73f4fdeb7b5c4eb38790170aa...refs/remotes/origin/main [11ms]
+2024-10-09 16:50:41.363 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-10-09 16:50:41.383 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-09 16:50:41.423 [info] > git status -z -uall [51ms]
+2024-10-09 16:52:16.322 [info] > git rev-parse --show-toplevel [238ms]
+2024-10-09 16:52:16.322 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-09 16:52:16.342 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-09 16:52:16.342 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-09 16:52:18.499 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-09 16:52:18.499 [info] fatal: not a git repository (or any of the parent directories): .git

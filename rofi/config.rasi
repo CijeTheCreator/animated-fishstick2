@@ -1,0 +1,6 @@
+configuration {
+    kb-remove-to-eol: "Alt+j";
+    kb-accept-entry: "Return,KP_Enter";
+    kb-row-up: "Up,Control+k";
+    kb-row-down: "Down,Control+j";
+}

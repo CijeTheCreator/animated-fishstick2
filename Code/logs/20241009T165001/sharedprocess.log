@@ -1,0 +1,34 @@
+2024-10-09 16:50:08.082 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode/extensions
+2024-10-09 16:50:08.401 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode/extensions
+2024-10-09 16:50:08.457 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ubuntu/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ubuntu/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///snap/code/171/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///snap/code/171/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///snap/code/171/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///snap/code/171/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///snap/code/171/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///snap/code/171/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
+2024-10-09 16:51:39.658 [info] Getting Manifest... dsznajder.es7-react-js-snippets
+2024-10-09 16:51:40.267 [info] Installing extension: dsznajder.es7-react-js-snippets {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ubuntu/.vscode/extensions/extensions.json","path":"/home/ubuntu/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.1","date":"2024-10-05T05:44:32.189Z"}}
+2024-10-09 16:52:07.645 [info] Getting Manifest... gruntfuggly.todo-tree
+2024-10-09 16:52:07.791 [info] Installing extension: gruntfuggly.todo-tree {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ubuntu/.vscode/extensions/extensions.json","path":"/home/ubuntu/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.1","date":"2024-10-05T05:44:32.189Z"}}
+2024-10-09 16:52:09.583 [info] Getting Manifest... wayou.vscode-todo-highlight
+2024-10-09 16:52:10.085 [info] Installing extension: wayou.vscode-todo-highlight {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ubuntu/.vscode/extensions/extensions.json","path":"/home/ubuntu/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.1","date":"2024-10-05T05:44:32.189Z"}}
+2024-10-09 16:52:10.647 [info] Extension signature verification result for dsznajder.es7-react-js-snippets: Success. Executed: true. Duration: 6716ms.
+2024-10-09 16:52:12.033 [info] Extracted extension to file:///home/ubuntu/.vscode/extensions/dsznajder.es7-react-js-snippets-4.4.3: dsznajder.es7-react-js-snippets
+2024-10-09 16:52:12.704 [info] Extension signature verification result for gruntfuggly.todo-tree: Success. Executed: true. Duration: 2093ms.
+2024-10-09 16:52:12.804 [info] Extracted extension to file:///home/ubuntu/.vscode/extensions/gruntfuggly.todo-tree-0.0.226: gruntfuggly.todo-tree
+2024-10-09 16:52:15.020 [info] Renamed to /home/ubuntu/.vscode/extensions/dsznajder.es7-react-js-snippets-4.4.3
+2024-10-09 16:52:15.732 [info] Renamed to /home/ubuntu/.vscode/extensions/gruntfuggly.todo-tree-0.0.226
+2024-10-09 16:52:15.866 [info] Extension installed successfully: dsznajder.es7-react-js-snippets vscode-userdata:/home/ubuntu/.vscode/extensions/extensions.json
+2024-10-09 16:52:16.126 [info] Extension installed successfully: gruntfuggly.todo-tree vscode-userdata:/home/ubuntu/.vscode/extensions/extensions.json
+2024-10-09 16:52:17.983 [info] Extension signature verification result for wayou.vscode-todo-highlight: Success. Executed: true. Duration: 1915ms.
+2024-10-09 16:52:18.051 [info] Extracted extension to file:///home/ubuntu/.vscode/extensions/wayou.vscode-todo-highlight-1.0.5: wayou.vscode-todo-highlight
+2024-10-09 16:52:18.342 [info] Renamed to /home/ubuntu/.vscode/extensions/wayou.vscode-todo-highlight-1.0.5
+2024-10-09 16:52:18.403 [info] Extension installed successfully: wayou.vscode-todo-highlight vscode-userdata:/home/ubuntu/.vscode/extensions/extensions.json
+2024-10-09 16:52:18.435 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ubuntu/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ubuntu/.vscode/extensions/extensions.json.vsctmp'
+    at lm.create (file:///snap/code/171/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///snap/code/171/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///snap/code/171/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///snap/code/171/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///snap/code/171/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///snap/code/171/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)

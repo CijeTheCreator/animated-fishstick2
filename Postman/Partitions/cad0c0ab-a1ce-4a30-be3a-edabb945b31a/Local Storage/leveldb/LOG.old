@@ -1,0 +1,9 @@
+2024/12/20-06:16:22.935 1f8a Reusing MANIFEST /home/chijioke-akaolisa-osadebe/.config/Postman/Partitions/cad0c0ab-a1ce-4a30-be3a-edabb945b31a/Local Storage/leveldb/MANIFEST-000001
+2024/12/20-06:16:22.950 1f8a Recovering log #3
+2024/12/20-06:16:22.952 1f8a Reusing old log /home/chijioke-akaolisa-osadebe/.config/Postman/Partitions/cad0c0ab-a1ce-4a30-be3a-edabb945b31a/Local Storage/leveldb/000003.log 
+2024/12/20-06:17:23.481 1f8b Level-0 table #5: started
+2024/12/20-06:17:23.494 1f8b Level-0 table #5: 23646 bytes OK
+2024/12/20-06:17:23.500 1f8b Delete type=0 #3
+2024/12/20-07:21:21.206 1f8b Level-0 table #7: started
+2024/12/20-07:21:21.222 1f8b Level-0 table #7: 19016 bytes OK
+2024/12/20-07:21:21.234 1f8b Delete type=0 #4

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+DOCS="https://penpot-plugins-api-doc.pages.dev/"
+ASK_GOOGLE="https://google.com"
+ASK_GPT="https://chatgpt.com"
+YOUTUBE="https://youtube.com"
+
+i3-msg "workspace 2; exec firefox --new-window $DOCS --class DOCS"
+i3-msg "workspace 3; exec firefox --new-window $ASK_GOOGLE --class ASK_GOOGLE"
+i3-msg "workspace 3; exec firefox --new-window $ASK_GPT --class ASK_GPT"
+i3-msg "workspace 4; exec firefox --new-window $YOUTUBE --class YOUTUBE"
+
+i3-msg "workspace 9; exec windscribe-cli"
+
+# Open startup windows with unique classes
+i3-msg "workspace 1; exec kitty tmux"
